@@ -16,9 +16,8 @@ public class LCGoogleSignInExample : MonoBehaviour
         //For Android, You need to replace it with web client ID. Check details given in LCGoogleLoginBridge file or ReadMe file or tutorial video
         //For iOS, web client id will be used if you are using server auth. Normal iOS client id is picked up from Google-Services plist file. Its safe to pass null here for iOS if no server auth is used otherwise its ignored by the sdk
 
-#warning Google Login: Pass web client ID + iOS Client ID here and remove this warning to tryout example scene
-        LCGoogleLoginBridge.InitWithClientID("<WebClientIdData>.apps.googleusercontent.com",
-    "<IOSClientIdData>.apps.googleusercontent.com");
+        //#warning Google Login: Pass web client ID + iOS Client ID here and remove this warning to tryout example scene
+        LCGoogleLoginBridge.InitWithClientID("1062912882322-h5obafcevbl7jng0bseuibnuiuvt0vlh.apps.googleusercontent.com", "");
 
         PrintMessage("Google Login Initialized");
     }
