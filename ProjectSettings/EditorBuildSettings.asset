@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/AssetsExternal/Wumbagic/GoogleSignIn/LCGoogleSignInExample.unity
+    guid: e0701ddfddfd447f5909d8c42f189818
   m_configObjects: {}
